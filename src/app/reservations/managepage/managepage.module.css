@@ -1,0 +1,135 @@
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.profileSection {
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.profileHeading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profileTable {
+    margin: 0 auto;
+    border-spacing: 10px;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.adminSection {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.adminHeading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.formHeading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.formGroup {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.formGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.addButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+    background-color: #0056b3;
+}
+
+.shopList {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.shopCard {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.shopCard p {
+    margin-bottom: 5px;
+}
+
+.updateForm input,
+.deleteButton {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.updateForm button,
+.deleteButton {
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.updateForm button:hover,
+.deleteButton:hover {
+    background-color: #0056b3;
+}

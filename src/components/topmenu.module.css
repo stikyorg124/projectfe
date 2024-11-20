@@ -1,0 +1,47 @@
+.menucontainer {
+    height: 50px;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logoimg {
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+}
+
+.itemcontainer {
+    flex-grow: 1;
+    display: flex;
+    gap: 20px; /* Spacing between items */
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: grey;
+}
+
+.authButton {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #00acc1; /* Cyan color for auth buttons */
+    cursor: pointer;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.authButton:hover {
+    color: #007bff; /* Darker blue on hover */
+}
